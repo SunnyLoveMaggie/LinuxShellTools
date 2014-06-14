@@ -1,0 +1,2 @@
+#Use awk to deal with the file's column
+awk -F " " '{print $1 "  "$2}' data.txt > result.txt

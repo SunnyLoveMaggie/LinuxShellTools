@@ -1,0 +1,20 @@
+#!/bin/bash
+
+FILENAME=$1
+while read line; do
+    #skip the empty line
+    MATCH=`echo $line | awk '/(^[\s]*$)/ {print NR}'`
+    if [ $MATCH > 0 ]; then
+        continue
+    fi
+    
+    FILE_BASE_NAME=`echo ${line} | awk -F @@ '{print $1}'`
+    #echo ${FILE_BASE_NAME}
+    CONTRIBVER=`echo ${line} | awk -F @@ '{print $2}'`
+    TARGET=`cleartool desc -s ${FILE_BASE_NAME}`
+    echo "cleartool merge -to $CONTRIBVER -nda -nc -ver $TARGET"
+    cleartool merge -to $TARGET -nda -nc -ver $CONTRIBVER
+    if [ $? -ne 0 ]; then
+        echo $FILE_BASE_NAME>> fail_createarrow$FILENAME
+    fi
+done < $FILENAME
