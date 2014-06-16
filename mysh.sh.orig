@@ -2,7 +2,7 @@
 #Test from local server
 =======
 #Test from Github
->>>>>>> 0c749dc04a14483df7e119d637560214c39c1cab
+>>>>>>> be50a8e8d4acdf6a83441d2f2966edc32a0488ce
 function bsopass()
 {
 USER="xiangmin@cn.ibm.com"
