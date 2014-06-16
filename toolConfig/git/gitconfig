@@ -6,7 +6,7 @@
 	editor = emacs
 	excludesfile =~/.gitignore
 [merge]
-	tool = vimdiff
+	tool = extMerge
 [color]
 	status = auto
 	diff = auto
@@ -15,3 +15,9 @@
 	ui = true
 [commit]
 	template = /home/maggie/Personal/timeSaving/toolConfig/git/template
+[mergetool "extMerge"]
+	cmd = extMerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool]
+	trustExitCode = false
+[diff]
+	external = extDiff
