@@ -4,6 +4,7 @@
 
 [core]
 	editor = emacs
+	excludesfile =~/.gitignore
 [merge]
 	tool = vimdiff
 [color]
