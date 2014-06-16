@@ -1,0 +1,13 @@
+[user]
+	name = xiangmin2587
+	email = xiangmin2587@163.com
+
+[core]
+	editor = emacs
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
