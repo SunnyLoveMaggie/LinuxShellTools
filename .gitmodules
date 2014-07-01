@@ -1,3 +1,6 @@
 [submodule "todo"]
 	path = todo
 	url = git@github.com:mattjj/todo-bash.git
+[submodule "emacs24_starter_kit"]
+	path = emacs24_starter_kit
+	url = http://github.com/eschulte/emacs24-starter-kit.git
