@@ -1,0 +1,64 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/maggie/windows/04_Ruby/ridley/" . "spec/")
+ ("/home/maggie/windows/04_Ruby/" . "ridley/")
+ ("/home/maggie/windows/" . "04_Ruby/")
+ ("/home/maggie/" . "windows/")
+ ("/home/maggie/Personal/timeSaving/toolConfig/emacs/" . "emacs.d/")
+ ("/home/maggie/Personal/timeSaving/toolConfig/" . "emacs/")
+ ("/home/maggie/Personal/timeSaving/" . "toolConfig/")
+ ("/home/maggie/Personal/" . "timeSaving/")
+ ("/home/maggie/.emacs.d/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/maggie/windows/04_Ruby/ridley/spec/"
+ "/home/maggie/Personal/timeSaving/toolConfig/emacs/emacs.d/"
+ "/home/maggie/.emacs.d/"
+ "/home/maggie/Personal/timeSaving/toolConfig/emacs/"
+ "/home/maggie/.emacs.d/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "spec_helper.rb"
+ "init.el"
+ "starter-kit-bindings.el"
+ "keyfreq.el"
+ "starter-kit-registers.el"
+ "emacs"
+ ".gitignore"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/maggie/windows/04_Ruby/ridley/spec/" (21352 22118 63208 900000) "unit/" "support/" "spec_helper.rb" "fixtures/" "acceptance/" "../" "./")
+
+ ("/home/maggie/windows/04_Ruby/ridley/" (21352 22117 930201 300000) "Thorfile" "spec/" "ridley.gemspec" "README.md" "LICENSE" "lib/" "Guardfile" "Gemfile" "CHANGELOG.md" ".travis.yml" ".ruby-version" ".gitignore" ".git/" "../" "./")
+
+ ("/home/maggie/windows/04_Ruby/" (21354 58739 540137 400000) "workspace/" "Seven Languages in Seven Weeks A Pragmatic Guide to Learning Programming Languages.pdf" "ruby程序设计.epub" "ruby_repo/" "ruby-trunk.zip" "ruby-trunk/" "ridley-connectors/" "ridley/" "Programming with Ruby.ppt" "programing ruby.pdf" "practise/" "MetaProgramming Ruby.pdf" "hlrb.pdf" "bookofruby.pdf" "Agile Web Development with Rails, 4th Edition.pdf" "../" "./")
+
+ ("/home/maggie/windows/" (21426 31249 743377 100000) "workspace_SCE+/" "workspace/" "tmp/" "swd/" "setup.sh" "remote_chef_solo.sh" "Program Files/" "pom.xml" "jazz/" "Internal-Matt Wang's Speech for Wuxi Lab All Hands 20140512.pdf" "eclipse/" "99_books/" "10_Linux/" "09_Build/" "08_Image/" "07_DevOps/" "05_Docker/" "04_Ruby/" "03_Cloud/" "01_SCE+/" "$RECYCLE.BIN/")
+
+ ("/home/maggie/Personal/timeSaving/toolConfig/emacs/emacs.d/" (21426 37273 715044 918000) "starter-kit-publish.org" "starter-kit-js.org" "src/" "starter-kit-perl.org" "init.el" "starter-kit-bindings.org" "starter-kit-gnus.org" "starter-kit-defuns.org" "keyfreq.el" "starter-kit-ruby.org" "starter-kit-defuns.el" "snippets/" "starter-kit.el" "starter-kit-haskell.org" "starter-kit-lisp.org" "starter-kit-misc-recommended.org" "backups/" "starter-kit-yasnippet.org" "starter-kit-bindings.el~" "auto-save-list/" "COPYING" "starter-kit-misc.el" "starter-kit-g-client.org" "./" "starter-kit-bindings.el" "elpa/" "starter-kit-eshell.org" "starter-kit-org.org" "starter-kit-registers.org" "Makefile" "starter-kit-python.org" "ido.last" "README" "starter-kit-misc.org" "../" "places" "starter-kit-registers.el" "starter-kit.org")
+
+ ("/home/maggie/" (21426 56472 215242 648000) ".z.dtr9Ew" ".gitk" ".thumbnails/" ".local/" ".gnome2/" "SCE+/" ".viminfo" ".zlogin" "Desktop/" "test" ".xsession-errors.old" "Videos/" ".gitconfig" "windows/" ".z.ynzEeI" ".z.Gk4zdq" ".z.B9XD61" ".z.zAL2hb" "bin/" ".lesshst" ".rnd" "Personal/" ".cache/" "software/" ".bashrc~" ".bash_profile" ".z.4IRhhb" ".pulse-cookie" ".z.cuKoHQ" "Music/" ".gtk-bookmarks" ".pulse/" ".eclipse/" ".z.3MurOK" "ruby/" "../" ".fontconfig/" ".z.BIEwcc" ".z.W9XuG4" ".gstreamer-0.10/" ".chef/" ".gconf/" ".vim/" ".mozilla/" "chef/" ".z.8KNutw" ".jazzcerts" ".z.wupf4P" "Public/" "#test#" "Documents/" ".ssh/" ".z.B0rZsC" ".profile" ".config/" ".p4merge/" "Downloads/" ".dbus/" ".java/" ".z" ".Xauthority" ".z.9ggN3H" "workspace/" ".thunderbird/" ".z.a0L0dR" ".z.Eqe04s" ".gvfs/" "Pictures/" ".ICEauthority" ".z.8uLjrx" ".pki/" ".xsession-errors" ".jazz-scm/" ".erlang.cookie" ".z.hwk0ZD" ".zshrc" ".gitignore" "./" ".bashrc" ".bash_history" ".mission-control/" ".bash_logout" ".z.tu1ilj" ".emacs.d/" ".InstallAnywhere/" ".rvm/" ".dmrc")
+
+ ("/home/maggie/.emacs.d/" (21426 36971 231045 268000) "starter-kit-publish.org" "starter-kit-js.org" "src/" "starter-kit-perl.org" "init.el" "starter-kit-bindings.org" "starter-kit-gnus.org" "starter-kit-defuns.org" "keyfreq.el" "starter-kit-ruby.org" "starter-kit-defuns.el" "snippets/" "starter-kit.el" "starter-kit-haskell.org" "starter-kit-lisp.org" "starter-kit-misc-recommended.org" "backups/" "starter-kit-yasnippet.org" "starter-kit-bindings.el~" "auto-save-list/" "COPYING" "starter-kit-misc.el" "starter-kit-g-client.org" "./" "starter-kit-bindings.el" "elpa/" "starter-kit-eshell.org" "starter-kit-org.org" "starter-kit-registers.org" "Makefile" "starter-kit-python.org" "ido.last" "README" "starter-kit-misc.org" "../" "places" "starter-kit-registers.el" "starter-kit.org")
+
+ ("/home/maggie/Personal/timeSaving/toolConfig/emacs/" (21426 34528 187048 92000) "emacs" "emacs.d/" "setup_emacs.sh" "./" "../")
+
+ ("/home/maggie/Personal/timeSaving/toolConfig/" (21426 32833 119050 53000) "emacs/" "./" "tsocks/" "../" "git/")
+
+ ("/home/maggie/Personal/timeSaving/" (21426 29712 199053 665000) "mysh.sh" "emacs24_starter_kit/" "usefulCommand/" "z.sh" "emacs_keyfreq/" "toolConfig/" "todo/" ".gitmodules" "./" "README.md" "alias.sh" ".git/" "../" "sourceFile.sh")
+
+ ("/home/maggie/Personal/" (21406 31038 209605 648000) "software/" "./" "../" "timeSaving/")
+
+ ("/home/maggie/.emacs.d/src/" (21426 17792 184416 39000) ".gitignore" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,5 @@
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(require 'keyfreq)
+(keyfreq-mode 1)
+(keyfreq-autosave-mode 1)
